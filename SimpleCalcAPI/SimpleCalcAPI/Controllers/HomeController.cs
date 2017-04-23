@@ -8,7 +8,7 @@ namespace SimpleCalcAPI.Controllers {
     public class HomeController : Controller {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "World's best calc";
 
             return View();
         }
